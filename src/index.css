@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: bold;
+  src: local('Poppins-Bold'), url(./fonts/Poppins-Bold.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+  'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: normal;
+  src: local('Poppins-Regular'),
+    url(./fonts/Poppins-Regular.ttf) format('truetype');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                                'embedded-opentype', and 'svg' */
+}
